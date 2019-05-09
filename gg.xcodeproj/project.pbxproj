@@ -12,6 +12,8 @@
 		F5B4B26522840E8100608A44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5B4B26322840E8100608A44 /* Main.storyboard */; };
 		F5B4B26722840E8400608A44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5B4B26622840E8400608A44 /* Assets.xcassets */; };
 		F5B4B26A22840E8400608A44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5B4B26822840E8400608A44 /* LaunchScreen.storyboard */; };
+		F5B4B2742284120600608A44 /* AddController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B4B2732284120600608A44 /* AddController.swift */; };
+		F5B4B2762284121900608A44 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B4B2752284121900608A44 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		F5B4B26622840E8400608A44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5B4B26922840E8400608A44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5B4B26B22840E8400608A44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5B4B2732284120600608A44 /* AddController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddController.swift; sourceTree = "<group>"; };
+		F5B4B2752284121900608A44 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailViewController.swift; path = ../DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				F5B4B25F22840E8100608A44 /* AppDelegate.swift */,
+				F5B4B2752284121900608A44 /* DetailViewController.swift */,
 				F5B4B26122840E8100608A44 /* ViewController.swift */,
-				F5B4B26322840E8100608A44 /* Main.storyboard */,
 				F5B4B26622840E8400608A44 /* Assets.xcassets */,
 				F5B4B26822840E8400608A44 /* LaunchScreen.storyboard */,
 				F5B4B26B22840E8400608A44 /* Info.plist */,
+				F5B4B26322840E8100608A44 /* Main.storyboard */,
+				F5B4B2732284120600608A44 /* AddController.swift */,
 			);
 			path = gg;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			files = (
 				F5B4B26222840E8100608A44 /* ViewController.swift in Sources */,
 				F5B4B26022840E8100608A44 /* AppDelegate.swift in Sources */,
+				F5B4B2742284120600608A44 /* AddController.swift in Sources */,
+				F5B4B2762284121900608A44 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
